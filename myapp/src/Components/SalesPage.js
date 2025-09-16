@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const SalesPage = ({ setSalesHistory }) => {
   const initialProducts = [
-    { id: 1, name: 'Apple', price: 15, quantity: 100 },
-    { id: 2, name: 'Banana', price: 10, quantity: 100 },
-    { id: 3, name: 'Orange', price: 12, quantity: 100 },
+    { id: 1, name: 'meat', price: 15, quantity: 100 },
+    { id: 2, name: 'pork', price: 10, quantity: 100 },
+    { id: 3, name: 'fish', price: 12, quantity: 100 },
     { id: 4, name: 'Bread', price: 20, quantity: 100 },
     { id: 5, name: 'Milk', price: 18, quantity: 100 },
     { id: 6, name: 'Cheese', price: 30, quantity: 100 },

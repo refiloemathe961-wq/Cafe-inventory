@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import wings from './wings.jpg'; // Your logo image
+import wings from './wings.jpg'; 
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <img src={wings} alt="Wings Cafe Logo" className='logo' style={{ width: '100%', marginBottom: '20px' }} />
+      <img src={wings} alt="Wings Cafe Logo" className='logo' style={{ width: '80%', marginBottom: '20px' }} />
       <h2>Wings Cafe</h2>
       <ul>
         <li><Link to="/"><i className="fas fa-tachometer-alt"></i>Dashboard</Link></li>
