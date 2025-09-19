@@ -22,7 +22,7 @@ const DashBoard = ({ salesHistory, customers}) => {
             <h3>Total Value of Products</h3>
             <p>R{totalValue}</p>
           </div>
-          <div className="stat-card alert">
+          <div className="game">
             <h3>Low Stock Alerts</h3>
             <p>{lowStockAlerts} items</p>
           </div>
